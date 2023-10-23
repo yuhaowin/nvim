@@ -39,7 +39,3 @@ buffer.fileenconding = "utf-8"
 
 -- Global Settings --
 global.mapleader = " "
-
--- Key mappings --
--- 使用 <leader> + j 来格式化 JSON
-vim.keymap.set("n", "<leader>j", [[:%!jq .<CR>]], { noremap = true, silent = true, desc = "format json file use jq."})
